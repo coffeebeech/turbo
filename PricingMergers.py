@@ -1,0 +1,8 @@
+csh = input("Cash Value:")
+rt = input("Rate Value:")
+price = input("Initiator Price:")
+csh = float(csh)
+rt = float(rt)
+price = float(price)
+nprice = csh + (price * rt)
+print("New Price:", nprice)
